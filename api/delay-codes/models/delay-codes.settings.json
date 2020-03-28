@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "delay_codes",
+  "info": {
+    "name": "Delay Codes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Code": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "IsActive": {
+      "type": "boolean"
+    }
+  }
+}

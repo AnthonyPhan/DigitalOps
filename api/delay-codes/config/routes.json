@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/delay-codes",
+      "handler": "delay-codes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/delay-codes/count",
+      "handler": "delay-codes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/delay-codes/:id",
+      "handler": "delay-codes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/delay-codes",
+      "handler": "delay-codes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/delay-codes/:id",
+      "handler": "delay-codes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/delay-codes/:id",
+      "handler": "delay-codes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
